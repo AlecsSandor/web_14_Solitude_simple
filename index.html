@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- ===== FAVICON ===== -->
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
+
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- ===== BOX ICONS ===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>WE Imman</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">imman<sup>•</sup></a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#blog" class="nav__link">Blog</a></li>
+                        <li class="nav__item"><a href="#portfolio" class="nav__link">Portfolio</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home" id="home">
+                <div class="home__container bd-grid">
+                    <h1 class="home__title"><span>XE</span><br>imman</h1>
+
+                    <div class="home__scroll">
+                        <a href="#about" class="home__scroll-link"><i class='bx bx-up-arrow-alt' ></i>Scroll down</a>
+                    </div>
+
+                    <img src="assets/img/intro.png" alt="" class="home__img">
+                </div>
+            </section>
+            
+            <!--===== ABOUT =====-->
+            <section class="about section" id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/about.png" alt="">
+                    </div>
+
+                    <div>
+                        <h2 class="about__subtitle">I'm Xe Imman</h2>
+                        <span class="about__profession">Model / Influencer</span>
+                        <p class="about__text">
+                            Hi, I'm a fashion model based in London, England. 
+                            I have a passion for style and creativity, and strive to bring something unique to every project I work on. 
+                            I'm confident and outgoing, and I love to explore new ideas and trends in the fashion world. From catwalk shows to fashion shoots, I'm always looking to create something new and inspiring. 
+                            I'm eager to take on any challenge and I'm excited to see what the future holds!
+                        </p>
+
+                        <div class="about__social">
+                            <a href="#" class="about__social-icon"><i class='bx bxl-instagram' ></i></a>
+                            <a href="#" class="about__social-icon"><i class='bx bxl-tumblr' ></i></a>
+                            <a href="#" class="about__social-icon"><i class='bx bxl-facebook' ></i></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== BLOG =====-->
+            <section class="blog section" id="blog">
+                <h2 class="section-title">Blog</h2>
+
+                <div class="blog__container bd-grid">
+                    <div class="blog__img">
+                        <img src="assets/img/blog_01.jpg" alt="">
+
+                        <div class="blog__link" onclick="location.href='post.html'">
+                            <a href="post.html" class="blog__link-name">Read More</a>
+                        </div>
+                        <hr style="width:100%;text-align:left;margin-top:1rem">
+                        <h2>"The Benefits of a Minimal Closet: How to Create a Simple Yet Stylish Wardrobe"</h2>
+                    </div>
+                    <div class="blog__img">
+                        <img src="assets/img/blog_02.jpg" alt="">
+
+                        <div class="blog__link" onclick="location.href='post.html'">
+                            <a href="post.html" class="blog__link-name">Read More</a>
+                        </div>
+                        <hr style="width:100%;text-align:left;margin-top:1rem">
+                        <h2>"The Unforgettable Charm of Vintage Shoes"</h2>
+                    </div>
+                    <div class="blog__img">
+                        <img src="assets/img/blog_03.jpg" alt="">
+
+                        <div class="blog__link" onclick="location.href='post.html'">
+                            <a href="post.html" class="blog__link-name">Read More</a>
+                        </div>
+                        <hr style="width:100%;text-align:left;margin-top:1rem">
+                        <h2>"The Wonders of Shoes: Why You Need a Good Pair"</h2>
+                    </div>
+                </div>
+                <div class="blogButtonWrapper">
+                    <input type="submit" value="Check all posts" onClick="parent.location='blog.html'" class="blog__button">
+                </div>
+            </section>
+
+            <!--===== PORTFOLIO =====-->
+            <section class="portfolio section" id="portfolio">
+                <h2 class="section-title">Portfolio</h2>
+
+                <div class="portfolio__container bd-grid">
+                    <div class="portfolio__img">
+                        <img src="assets/img/portfolio_01.jpg" alt="">
+
+                        <div class="portfolio__link" onclick="location.href='post.html'">
+                            <a href="post.html" class="portfolio__link-name">Explore</a>
+                        </div>
+                    </div>
+                    <div class="portfolio__img">
+                        <img src="assets/img/portfolio_02.jpg" alt="">
+
+                        <div class="portfolio__link" onclick="location.href='post.html'">
+                            <a href="post.html" class="portfolio__link-name">Explore</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    
+                    <form action="" class="contact__form">
+                        <div class="contact__inputs">
+                            <input type="text" placeholder="Name" class="contact__input">
+                            <input type="mail" placeholder="Email" class="contact__input">
+                        </div>
+
+                        <textarea name="" id="" cols="0" rows="10" placeholder="Hello, all good..." class="contact__input"></textarea>
+
+                        <input type="submit" value="Submit" class="contact__button">
+                    </form>
+
+                    <div class="contact__info">
+                        <h3 class="contact__subtitle">EMAIL</h3>
+                        <span class="contact__text">alex@veswip.com</span>
+
+                        <h3 class="contact__subtitle">PHONE</h3>
+                        <span class="contact__text">+1 (213) 279-5699</span>
+
+                        <h3 class="contact__subtitle">ADRESS</h3>
+                        <span class="contact__text">Santa Barbara, California, USA</span>
+                    </div>
+                </div>
+                
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer section"id="footer">
+            <hr style="width:90%;text-align:center;margin-bottom:2rem;background-color:#1f1f20;">
+            <div class="footer__container bd-grid">
+                
+                <div class="footer__data">
+                    <p class="footer__text" style="font-size:0.8rem;">© imman 2023</p>
+                </div>
+                
+                <div class="footer__data">
+                    <a href="#" class="about__social-icon"><i class='bx bxl-instagram' ></i></a>
+                    <a href="#" class="about__social-icon"><i class='bx bxl-tumblr' ></i></a>
+                    <a href="#" class="about__social-icon"><i class='bx bxl-facebook' ></i></a>
+                </div>
+
+            </div>
+        </footer>
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
